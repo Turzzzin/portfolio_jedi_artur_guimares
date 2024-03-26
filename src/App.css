@@ -1,0 +1,87 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.background {
+    background: #D32F2F;
+    width: 1500px;
+    height: 800px;
+    border-radius: 12px;
+    padding: 48px;
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    justify-content: center;
+}
+
+.card {
+    background-color: #101113;
+    border-radius: 8px;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    box-shadow: 1px 1px 11px 0px #101113;
+    transition: transform 0.3s;
+    transform: scale(1);
+    margin-right: 28px;
+    margin-left: 28px;
+    margin-top: 40px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.name_card {
+    background-color: #101113;
+    border-radius: 8px;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    box-shadow: 1px 1px 11px 0px #101113;
+    transition: transform 0.3s;
+    transform: scale(1);
+}
+
+.name_card:hover {
+    transform: scale(1.05);
+}
+
+
+.image {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 16px;
+    margin-top: 20px;
+}
+
+.bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.right {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.linkedin_logo {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 8px;
+    bottom: 12px;
+}
+
+.github_logo {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 72px;
+    bottom: 12px;
+}
